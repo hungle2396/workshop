@@ -1,0 +1,125 @@
+.toolbar {
+}
+
+.color--container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.color--left--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.color--picked {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.color--button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.color--right--container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.tools--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    gap: 20px;
+}
+
+.negative--bottom {
+    margin-bottom: -1rem;
+}
+
+.image {
+    height: 140px;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 150px;
+}
+
+.eraser--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.eraser--button {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0;
+    width: 50%;
+    background-color: rgb(243, 114, 174);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    width: 90%;
+}
+
+.text--container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(151, 253, 190);
+    width: 760px;
+    border-radius: 10px;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.text--button {
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text--orange {
+    background-color: rgb(240, 170, 66);
+}
+
+.text--green {
+    background-color: rgb(51, 177, 88);
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    margin-bottom: 3rem;
+}
+
+.active--text {
+    margin-bottom: 1rem;
+}

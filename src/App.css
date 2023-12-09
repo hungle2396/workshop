@@ -1,0 +1,15 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orange--button {
+    background-color: #e98427;
+    margin: 1rem;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
